@@ -1,0 +1,20 @@
+.siebarRow{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.siebarRow:hover{
+  background-color: lightgray;
+  border-radius: 10px;
+}
+.siebarRow > h4{
+  margin-left: 20px;
+  font-weight: 600;
+}
+
+.siebarRow > .MuiSvgIcon-root{
+  color: #2e81f4;
+  font-size: xx-large;
+}
